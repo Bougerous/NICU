@@ -1,0 +1,1 @@
+query_builder::insert_statement::insert_from_select::InsertFromSelect<SelectStatement<FromClause<models::airway_options::airway_options::table>>, _>

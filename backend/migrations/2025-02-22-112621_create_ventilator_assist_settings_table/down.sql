@@ -1,0 +1,1 @@
+DROP TABLE ventilator_assist_settings;

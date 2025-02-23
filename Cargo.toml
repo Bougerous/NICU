@@ -1,0 +1,24 @@
+[package]
+name = "nicu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5", features = ["json"] }
+diesel = { version = "2.1.0", features = ["postgres", "r2d2", "chrono"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+bcrypt = "0.10"
+jsonwebtoken = "8.1"
+dotenvy = "0.15"
+r2d2 = "0.8"
+
+[workspace]
+members = [
+    "backend",
+    "src"
+]
+
+[workspace.package]
+edition = "2021"

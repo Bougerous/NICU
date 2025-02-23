@@ -1,0 +1,40 @@
+use diesel::prelude::*;
+use serde::{Deserialize, Serialize};
+use chrono::{DateTime, Utc};
+
+#[derive(Debug, Serialize, Deserialize, Queryable, Insertable)]
+#[diesel(table_name = cbcs)]
+pub struct Cbc {
+    pub id: i32,
+    pub baby_id: i32,
+    pub hemoglobin: Option<f32>,
+    pub total_count: Option<i32>,
+    pub platelets: Option<i32>,
+    pub created_at: DateTime<Utc>,
+    pub updated_at: DateTime<Utc>,
+}
+
+#[derive(Debug, Deserialize, Insertable)]
+#[diesel(table_name = cbcs)]
+pub struct NewCbc {
+    pub baby_id: i32,
+    pub hemoglobin: Option<f32>,
+    pub total_count: Option<i32>,
+    pub platelets: Option<i32>,
+}
+
+table! {
+    cbcs (id) {
+        id -> Int4,
+        baby_id -> Int4,
+        hemoglobin -> Nullable<Float4>,
+        total_count -> Nullable<Int4>,
+        platelets -> Nullable<Int4>,
+        created_at -> Timestamptz,
+        updated_at -> Timestamptz,
+    }
+}
+
+joinable!(cbcs -> babies (baby_id));
+
+allow_tables_to_appear_in_same_query!(babies, cbcs);
