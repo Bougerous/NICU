@@ -1,18 +1,22 @@
 [package]
-name = "nicu"
+name = "nicu-app"
 version = "0.1.0"
 edition = "2021"
 
+[build-dependencies]
+tauri-build = { version = "2.0.5", features = [] }
+
 [dependencies]
-rocket = { version = "0.5", features = ["json"] }
+rocket = { version = "0.5.0-rc.3", features = ["json"] }
 diesel = { version = "2.1.0", features = ["postgres", "r2d2", "chrono"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 chrono = { version = "0.4", features = ["serde"] }
-bcrypt = "0.10"
-jsonwebtoken = "8.1"
+bcrypt = "0.16"
+jsonwebtoken = "8.2"
 dotenvy = "0.15"
-r2d2 = "0.8"
+r2d2 = "0.8.9"
+tauri = { version = "2.2.5", features = ["api-all"] }
 
 [workspace]
 members = [
@@ -22,3 +26,6 @@ members = [
 
 [workspace.package]
 edition = "2021"
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]

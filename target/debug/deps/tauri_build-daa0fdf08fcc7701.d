@@ -1,0 +1,10 @@
+/Users/adityavel/Desktop/projects/NICU/target/debug/deps/libtauri_build-daa0fdf08fcc7701.rmeta: /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/lib.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/allowlist.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/static_vcruntime.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/window-app-manifest.xml
+
+/Users/adityavel/Desktop/projects/NICU/target/debug/deps/libtauri_build-daa0fdf08fcc7701.rlib: /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/lib.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/allowlist.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/static_vcruntime.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/window-app-manifest.xml
+
+/Users/adityavel/Desktop/projects/NICU/target/debug/deps/tauri_build-daa0fdf08fcc7701.d: /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/lib.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/allowlist.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/static_vcruntime.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/window-app-manifest.xml
+
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/lib.rs:
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/allowlist.rs:
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/static_vcruntime.rs:
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.5.6/src/window-app-manifest.xml:

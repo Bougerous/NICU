@@ -1,13 +1,40 @@
 [package]
-name = "nicu_src"
+name = "nicu"
 version = "0.1.0"
 edition = "2021"
 
+[build-dependencies]
+tauri-build = { version = "2.0.5", features = [] }
+
 [dependencies]
-chrono = "0.4"
-jsonwebtoken = "8.1"
+rocket = { version = "0.5.0-rc.3", features = ["json"] }
+diesel = { version = "2.1.0", features = ["postgres", "r2d2", "chrono"] }
 serde = { version = "1.0", features = ["derive"] }
-rocket = "0.5"
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+bcrypt = "0.16"
+jsonwebtoken = "8.2"
+dotenvy = "0.15"
+r2d2 = "0.8.9"
+tauri = { version = "2.2.5", features = ["api-all"] }
 
 [lib]
-path = "lib.rs"  # This tells Cargo that lib.rs is the library target
+name = "nicu"
+crate-type = ["staticlib", "cdylib", "rlib"]
+path = "lib.rs"
+
+[[bin]]
+name = "nicu"
+path = "main.rs"
+
+[workspace]
+members = [
+    "backend",
+    "frontend"
+]
+
+[workspace.package]
+edition = "2021"
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]
