@@ -4,9 +4,11 @@
   "productName": "NICU",
   "version": "0.1.0",
   "build": {
-    "beforeBuildCommand": "cd ../src-frontend && npm run build",
-    "beforeDevCommand": "cd ../src-frontend && npm run dev",
-    "withGlobalTauri": true
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devUrl": null,
+    "frontendDist": "../dist",
+    "devPath": "http://localhost:3000"
   },
   "app": {
     "security": {
@@ -15,10 +17,12 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "height": 400,
         "resizable": true,
-        "title": "NICU",
-        "width": 800
+        "title": "NICU Backend Service",
+        "width": 600,
+        "url": "index.html",
+        "decorations": false
       }
     ]
   },
@@ -27,6 +31,8 @@
     "category": "DeveloperTool",
     "copyright": "",
     "icon": [
+      "icons/icon.icns",
+      "icons/icon.ico",
       "icons/icon.png"
     ],
     "targets": [

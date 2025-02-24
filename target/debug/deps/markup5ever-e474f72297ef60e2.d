@@ -1,0 +1,15 @@
+/Users/adityavel/Desktop/projects/NICU/target/debug/deps/libmarkup5ever-e474f72297ef60e2.rmeta: /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/lib.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/data/mod.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/mod.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/tree_builder.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/serialize.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/buffer_queue.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/smallcharset.rs /Users/adityavel/Desktop/projects/NICU/target/debug/build/markup5ever-7353cc8128a172de/out/generated.rs /Users/adityavel/Desktop/projects/NICU/target/debug/build/markup5ever-7353cc8128a172de/out/named_entities.rs
+
+/Users/adityavel/Desktop/projects/NICU/target/debug/deps/markup5ever-e474f72297ef60e2.d: /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/lib.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/data/mod.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/mod.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/tree_builder.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/serialize.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/buffer_queue.rs /Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/smallcharset.rs /Users/adityavel/Desktop/projects/NICU/target/debug/build/markup5ever-7353cc8128a172de/out/generated.rs /Users/adityavel/Desktop/projects/NICU/target/debug/build/markup5ever-7353cc8128a172de/out/named_entities.rs
+
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/lib.rs:
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/data/mod.rs:
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/mod.rs:
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/tree_builder.rs:
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/serialize.rs:
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/buffer_queue.rs:
+/Users/adityavel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/smallcharset.rs:
+/Users/adityavel/Desktop/projects/NICU/target/debug/build/markup5ever-7353cc8128a172de/out/generated.rs:
+/Users/adityavel/Desktop/projects/NICU/target/debug/build/markup5ever-7353cc8128a172de/out/named_entities.rs:
+
+# env-dep:OUT_DIR=/Users/adityavel/Desktop/projects/NICU/target/debug/build/markup5ever-7353cc8128a172de/out

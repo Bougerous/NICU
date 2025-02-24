@@ -1,0 +1,12 @@
+cargo:rerun-if-env-changed=TAURI_CONFIG
+cargo:rerun-if-changed=tauri.conf.json
+cargo:rustc-check-cfg=cfg(desktop)
+cargo:rustc-cfg=desktop
+cargo:rustc-check-cfg=cfg(mobile)
+cargo:rustc-env=TAURI_ANDROID_PACKAGE_NAME_APP_NAME=dev
+cargo:rustc-env=TAURI_ANDROID_PACKAGE_NAME_PREFIX=com_nicu
+cargo:rustc-check-cfg=cfg(dev)
+cargo:PERMISSION_FILES_PATH=/Users/adityavel/Desktop/projects/NICU/target/debug/build/nicu-workspace-d78aa9d662788e5f/out/app-manifest/__app__-permission-files
+cargo:rerun-if-changed=capabilities
+cargo:rustc-env=TAURI_ENV_TARGET_TRIPLE=aarch64-apple-darwin
+cargo:rustc-env=MACOSX_DEPLOYMENT_TARGET=10.13

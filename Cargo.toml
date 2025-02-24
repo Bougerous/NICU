@@ -1,5 +1,7 @@
 [package]
-name = "nicu-workspace" # Changed from "nicu" to avoid duplicate names
+name = "nicu-workspace"
+version = "0.1.0"
+edition = "2021"
 
 [workspace]
 members = ["src-tauri"]
@@ -22,7 +24,7 @@ bcrypt = "0.16"
 jsonwebtoken = "8.2"
 dotenvy = "0.15"
 r2d2 = "0.8.9"
-tauri = { version = "2.2.5", features = [] }
+tauri = { version = "2.0.0" }
 tokio = { version = "1.0", features = ["full"] }
 
 [features]
