@@ -1,5 +1,11 @@
 [package]
-name = "nicu-app"
+name = "nicu-workspace" # Changed from "nicu" to avoid duplicate names
+
+[workspace]
+members = ["src-tauri"]
+resolver = "2"
+
+[workspace.package]
 version = "0.1.0"
 edition = "2021"
 
@@ -16,16 +22,8 @@ bcrypt = "0.16"
 jsonwebtoken = "8.2"
 dotenvy = "0.15"
 r2d2 = "0.8.9"
-tauri = { version = "2.2.5", features = ["api-all"] }
-
-[workspace]
-members = [
-    "backend",
-    "src"
-]
-
-[workspace.package]
-edition = "2021"
+tauri = { version = "2.2.5", features = [] }
+tokio = { version = "1.0", features = ["full"] }
 
 [features]
 custom-protocol = ["tauri/custom-protocol"]

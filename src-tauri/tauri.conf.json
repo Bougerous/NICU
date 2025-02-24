@@ -1,0 +1,38 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/schema.json",
+  "identifier": "com.nicu.dev",
+  "productName": "NICU",
+  "version": "0.1.0",
+  "build": {
+    "beforeBuildCommand": "cd ../src-frontend && npm run build",
+    "beforeDevCommand": "cd ../src-frontend && npm run dev",
+    "withGlobalTauri": true
+  },
+  "app": {
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 600,
+        "resizable": true,
+        "title": "NICU",
+        "width": 800
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "category": "DeveloperTool",
+    "copyright": "",
+    "icon": [
+      "icons/icon.png"
+    ],
+    "targets": [
+      "app",
+      "deb",
+      "dmg"
+    ]
+  }
+}

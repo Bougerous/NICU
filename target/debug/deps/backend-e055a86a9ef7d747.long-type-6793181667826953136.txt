@@ -1,2 +1,0 @@
-rocket::serde::json::Json<rocket::serde::json::Json<CannulaSite>>
-Result<rocket::serde::json::Json<rocket::serde::json::Json<CannulaSite>>, Status>

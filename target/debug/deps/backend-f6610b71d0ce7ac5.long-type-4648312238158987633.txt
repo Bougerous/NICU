@@ -1,2 +1,0 @@
-rocket::serde::json::Json<rocket::serde::json::Json<Vec<AirwayOption>>>
-Result<rocket::serde::json::Json<rocket::serde::json::Json<Vec<AirwayOption>>>, Status>

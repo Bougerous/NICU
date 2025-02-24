@@ -1,2 +1,0 @@
-rocket::serde::json::Json<Created<rocket::serde::json::Json<AirwayOption>>>
-Result<rocket::serde::json::Json<Created<rocket::serde::json::Json<AirwayOption>>>, Status>
